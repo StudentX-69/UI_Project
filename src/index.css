@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+   min-height: 100%;
+}
+
+body {
+   margin: 0;
+   background-image: url("https://i.pinimg.com/1200x/d9/9a/4d/d99a4dddce0e47b5571da67f1864c3c0.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+#top{
+    border-bottom-left-radius: 105px;
+    border-bottom-right-radius: 105px ;
+    border-bottom: 1px solid white;
+    backdrop-filter: blur(10px);
+}
+
+h2 span{
+   font-weight: bold;
+}
+
+@media  (max-width:768px){
+   #top{
+      height: 70%;
+   }
+   #image-container{
+      gap:50px;
+      margin:10px 50px;
+      
+   }
+   #second-img{
+      width: 250px;
+     
+   }
+   #links{
+      font-size: 1rem;
+   }
+   div img{
+      height: 150px;
+      width: 220px;
+   }
+   
+}
